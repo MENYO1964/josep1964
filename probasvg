@@ -1,0 +1,31 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg" style="background-color: #f4f4f4;">
+  <!-- Título del gráfico -->
+  <text x="250" y="30" text-anchor="middle" font-size="18" fill="#333">Ingresos y Gastos</text>
+
+  <!-- Líneas de referencia -->
+  <line x1="50" y1="250" x2="450" y2="250" stroke="#ccc" stroke-width="1" />
+  <line x1="50" y1="200" x2="450" y2="200" stroke="#ccc" stroke-width="1" />
+  <line x1="50" y1="150" x2="450" y2="150" stroke="#ccc" stroke-width="1" />
+  <line x1="50" y1="100" x2="450" y2="100" stroke="#ccc" stroke-width="1" />
+
+  <!-- Eje Y -->
+  <line x1="50" y1="50" x2="50" y2="250" stroke="#000" stroke-width="2" />
+  <text x="40" y="255" text-anchor="end" font-size="12">0</text>
+  <text x="40" y="205" text-anchor="end" font-size="12">50</text>
+  <text x="40" y="155" text-anchor="end" font-size="12">100</text>
+  <text x="40" y="105" text-anchor="end" font-size="12">150</text>
+  <text x="40" y="55" text-anchor="end" font-size="12">200</text>
+
+  <!-- Columnas de ingresos y gastos -->
+  <!-- Columna de ingresos -->
+  <rect x="100" y="100" width="50" height="150" fill="#4CAF50" />
+  <text x="125" y="270" text-anchor="middle" font-size="12" fill="#333">Ingresos</text>
+
+  <!-- Columna de gastos -->
+  <rect x="200" y="150" width="50" height="100" fill="#F44336" />
+  <text x="225" y="270" text-anchor="middle" font-size="12" fill="#333">Gastos</text>
+
+  <!-- Valores encima de las columnas -->
+  <text x="125" y="90" text-anchor="middle" font-size="12" fill="#333">200</text>
+  <text x="225" y="140" text-anchor="middle" font-size="12" fill="#333">100</text>
+</svg>
